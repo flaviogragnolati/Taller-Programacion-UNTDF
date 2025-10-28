@@ -1,4 +1,4 @@
-# Taller de Programación para Ingeniería Industrial — Temario
+# Taller de Programación — Temario
 
 > Basado en los roadmaps de Python Developer y Data Analyst de roadmap.sh, con módulos añadidos de setup profesional, IDEs, Git/GitHub y un proyecto integrador aplicado a problemas reales de la carrera.
 
@@ -33,7 +33,7 @@
 
 ### Módulo 6: Calidad, pruebas y depuración  
 - **Tema 6.1:** Pruebas con `pytest` (fixtures, parametrización, coverage)  
-- **Tema 6.2:** Depuración en VS Code / PyCharm y logging  
+- **Tema 6.2:** Debugging en VS Code / PyCharm y logging  
 - **Tema 6.3:** Integración con GitHub (acciones básicas de CI)
 
 ### Módulo 7: Desarrollo web (opcional)  
@@ -90,32 +90,14 @@
   - Entrega técnica (`notebook`/script + `README`) y entrega ejecutiva (informe 1–3 páginas)  
 - **Tema 15.4:** Retro y mejora continua (code review, métricas de calidad, siguientes pasos)
 
-## Bibliografía principal (consultada / sugerida)
+## Referencias (consultada / sugerida)
 
 - Roadmap.sh — Python Developer y PDF asociado.  
 - Roadmap.sh — Data Analyst y PDF asociado.  
-- Astral “uv” — documentación e instalación.  
-- Poetry — documentación.  
-- pyenv / pyenv-win — README y guía.  
-- Conda — gestión de entornos.  
-- VS Code — guía Python.  
-- PyCharm — resumen CE/Pro.  
-- Pro Git (libro en línea).  
-- PEP 8 — guía de estilo oficial.  
-- typing — documentación estándar.  
-- pytest — descripción general.  
-- pandas — documentación (Getting started / User Guide).  
-- NumPy — descripción general.  
-- Matplotlib — tutoriales oficiales.  
-- Seaborn — tutorial/overview.  
-- Flask — documentación oficial.  
-- FastAPI — documentación oficial.  
-- Django — documentación y guía de inicio.
 
-## Recursos adicionales recomendados
 
-- Cheat sheet de type hints (mypy) para anotar código de forma efectiva.  
-- “10 minutes to pandas” para un repaso rápido de operaciones comunes.  
-- Tutoriales de Matplotlib (lifecycle de una figura, pyplot, artistas).  
-- Intro rápida a tipos en Python (FastAPI docs) para comprender `typing` en proyectos modernos.
+## Recursos adicionales
+//TODO
+
+
 
