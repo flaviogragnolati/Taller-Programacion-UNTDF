@@ -1,4 +1,4 @@
-# Taller de Programación — Temario!!!
+# Taller de Programación — Temario
 
 > Basado en los roadmaps de Python Developer y Data Analyst de roadmap.sh, con módulos añadidos de setup profesional, IDEs, Git/GitHub y un proyecto integrador aplicado a problemas reales de la carrera.
 
