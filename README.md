@@ -20,6 +20,8 @@
 - **Tema 3.2:** Estructuras de control (condicionales, bucles)
 - **Tema 3.3:** Funciones, excepciones, módulos y paquetes
 - **Tema 3.4:** Estándares de código (PEP 8), formateo y tipado con `typing`
+- **Tema 3.5:** Publicación de paquetes y módulos
+- **Tema 3.6:** Estructura de carpetas, convenciones y buenas prácticas para organizar el código
 
 ### Módulo 4: Estructuras de datos y algoritmos básicos
 - **Tema 4.1:** Listas, tuplas, sets, diccionarios
