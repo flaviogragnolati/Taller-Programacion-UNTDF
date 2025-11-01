@@ -26,8 +26,11 @@
 
 ### Módulo 4: Estructuras de datos y algoritmos básicos
 - **Tema 4.1:** Listas, tuplas, sets, diccionarios
-- **Tema 4.2:** Pilas, colas, heaps; nociones de árboles y recursión
-- **Tema 4.3:** Complejidad y buenas prácticas de rendimiento
+- **Tema 4.2:** Pilas, colas, heaps; nociones de árboles y grafos
+- **Tema 4.3:** Funciones de orden superior, iteradores y generadores
+- **Tema 4.4:** Recursión, funciones inmeditamente invocadas (IIFE) y currying
+- **Tema 4.5:** Algoritmos fundamentales (búsqueda, ordenamiento)
+- **Tema 4.6:** Complejidad (Big O) y buenas prácticas de rendimiento
 
 ### Módulo 5: Entradas/Salidas y conectividad
 - **Tema 5.1:** Archivos (CSV, JSON, Excel) y paths
