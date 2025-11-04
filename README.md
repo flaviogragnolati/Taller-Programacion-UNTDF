@@ -106,4 +106,147 @@
 //TODO
 
 
+# 🧩 Guía para Contribuir al Repositorio del Taller Python
+
+El objetivo es mantener un entorno colaborativo, ordenado y didáctico, fomentando el aporte de la comunidad.
+
+---
+
+## 🧱 Tipos de Contribuciones
+
+Existen **dos tipos principales** de aportes:
+
+---
+
+### 1️⃣ Contribuciones Complementarias
+
+Incluyen aportes que **amplían o complementan** el contenido original del taller:
+
+- Ejercicios adicionales o variantes de los existentes
+- Nuevos temas o subtemas
+- Ejemplos mejorados o aplicados a casos reales
+- Aplicaciones prácticas específicas
+- Implementaciones o módulos de código complementarios
+
+📂 **Ubicación:**
+
+```
+contribuciones/
+  ├── modulo_1/
+  ├── modulo_2/
+  ├── modulo_3/
+  ├── modulo_4/
+  ├── modulo_5/
+  └── ejercicios_integradores/
+```
+
+📘 **Formato recomendado:**
+
+- Preferentemente un único archivo `.md` con:
+  - Breve introducción teórica
+  - Explicación paso a paso
+  - Bloques de código comentados
+  - Resultados esperados o salida del programa
+- Si el aporte requiere código Python más extenso o modular:
+  - Crear una carpeta con nombre descriptivo (`modelo_lineal/`, `clasificacion_ml/`, etc.)
+  - Incluir dentro:
+    ```
+    ├── README.md
+    ├── main.py
+    ├── utils.py (opcional)
+    └── pyproject.toml / requirements.txt
+    ```
+  - El archivo `README.md` debe contener:
+    - Descripción teórica y objetivo
+    - Ejemplo de uso
+    - Dependencias y método de instalación
+    - Notas o recomendaciones
+
+Ejemplo mínimo:
+
+```markdown
+# Ejemplo de Optimización Numérica
+
+Este módulo muestra cómo resolver un sistema de ecuaciones lineales mediante `numpy.linalg`.
+
+## Uso
+```bash
+python main.py
+```
+
+## Dependencias
+- numpy
+
+Instalación:
+```bash
+pip install -r requirements.txt
+```
+
+
+---
+
+### 2️⃣ Correcciones, Actualizaciones o Mejoras de los Apuntes
+
+Estas contribuciones modifican los **apuntes principales** del taller.
+Pueden ser:
+
+- Corrección de errores tipográficos o de código
+- Mejoras de redacción o formato
+- Actualización de ejemplos o librerías
+- Inclusión de nuevos recursos o enlaces
+
+📘 **Procedimiento:**
+
+1. Hacer un *fork* del repositorio
+2. Crear una rama descriptiva, por ejemplo:
+   ```
+   fix/modulo3-condicionales
+   update/modulo5-optimizacion
+   enhance/modulo4-grafos
+   ```
+3. Realizar los cambios necesarios
+4. Enviar un **Pull Request (PR)**, usando la plantilla correspondiente:
+   - `mejoras_apuntes.md`
+   - `correccion_errores.md`
+   - `contribucion_complementaria.md`
+5. Asegurarse de incluir una descripción clara, motivación y pruebas del cambio.
+
+---
+
+## 🧾 Plantillas de Pull Request
+
+Las plantillas se encuentran en la carpeta:
+
+```
+.github/PULL_REQUEST_TEMPLATE/
+```
+
+Cada una corresponde a un tipo distinto de contribución (ver ejemplos en esa carpeta).
+
+---
+
+## 🧰 Buenas Prácticas Generales
+
+- Nombrar archivos y carpetas en **minúsculas** y con guiones bajos.
+- Respetar el formato Markdown y los títulos existentes.
+- Código en Python siguiendo **PEP8**.
+- Incluir un `requirements.txt` o `pyproject.toml` si hay dependencias.
+- Verificar ejecución con **Python ≥ 3.10**.
+- Preferir dependencias estándar o ampliamente disponibles.
+- No incluir datos binarios, pesados o con licencias no libres.
+
+---
+
+## 🧩 En resumen
+
+| Tipo de Contribución | Ubicación | Forma | Requiere PR |
+|-----------------------|------------|--------|--------------|
+| Ejercicio o ejemplo complementario | `/contribuciones/modulo_X/` o `/contribuciones/ejercicios_integradores/` | `.md` o carpeta con código y README | ✅ |
+| Corrección o mejora de apuntes | `/modulo_X/tema_X.X_...md` | Edición directa + PR | ✅ |
+
+---
+
+**💡 Tu aporte ayuda a mejorar el Taller Python.**
+Cada contribución amplía las oportunidades de aprendizaje de toda la comunidad.
+¡Gracias por participar! 🐍
 
