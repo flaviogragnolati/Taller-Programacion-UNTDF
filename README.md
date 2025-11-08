@@ -50,7 +50,6 @@
 ### Módulo 8: Introducción práctica a ciencia de datos con Python
 - **Tema 8.1:** NumPy y Pandas (series, dataframes, joins, groupby)
 - **Tema 8.2:** Visualización con Matplotlib/Seaborn
-- **Tema 8.3:** Notebooks vs. scripts; mini-pipeline reproducible
 
 ## Parte II — Camino Data Analyst
 
